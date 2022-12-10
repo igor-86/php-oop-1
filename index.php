@@ -16,6 +16,17 @@ var_dump($movie2);
 echo "<br>";
 var_dump($movie3); */
 
-echo $movie->printInfo();
+echo $movie->titolo;
+echo "<br>";
+echo $movie->anno;
 echo "<br>";
 echo $movie->info->printDue();
+
+echo "<br>";
+echo "<br>";
+
+echo $movie2->titolo;
+echo "<br>";
+echo $movie2->anno;
+echo "<br>";
+echo $movie2->info->printDue();

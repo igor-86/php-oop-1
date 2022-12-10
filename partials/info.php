@@ -17,7 +17,7 @@ class Info
     {
         $result = "";
         foreach ($this->cast as $casts) {
-            $result .= $casts . " ";
+            $result .= $casts . " " . "<br>";
         }
         return $result;
     }
